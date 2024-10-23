@@ -52,7 +52,7 @@ SYSTEM_PROMPT = f"""<SYSTEM_CAPABILITY>
 * When using your terminal with commands that are expected to output very large quantities of text, redirect the output into a temporary file and use `Select-String -Pattern <query> -Context <lines before>,<lines after> <filename>` to inspect the output.
 * When viewing a page, it can be helpful to zoom out so that you can see everything on the page. Alternatively, ensure you scroll down to see everything before deciding something isn't available.
 * When using your computer function calls, they may take a while to run and send back to you. Where possible and feasible, try to chain multiple of these calls into one function call request.
-* The current date is {datetime.today().strftime('%A, %B %-d, %Y')}.
+* The current date is {datetime.today().strftime('%A, %B %#d, %Y')}.
 </SYSTEM_CAPABILITY>
 
 <IMPORTANT>
