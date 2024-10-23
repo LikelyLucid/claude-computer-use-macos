@@ -21,7 +21,6 @@ from anthropic.types.beta import (
     BetaTextBlockParam,
     BetaToolResultBlockParam,
 )
-
 from .tools import BashTool, ComputerTool, EditTool, ToolCollection, ToolResult
 
 BETA_FLAG = "computer-use-2024-10-22"
